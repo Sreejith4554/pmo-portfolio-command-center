@@ -115,7 +115,7 @@ The same views are specified for Power BI in [the Desktop handoff](powerbi/READM
 
 Open P03 in Project Detail. Change milestone `P03-M3` forecast from **2026-10-05 to 2026-10-12**, then save. Open Dependencies: the P03 → P04 exposure changes from **14 to 21 days**. Reset the scenario, inspect P07's recovery history and download the weekly report.
 
-[2-minute, 5-minute, technical and management demo scripts](docs/demo-guide.md) · [latest generated report](examples/weekly-report-2026-09-21.md).
+[Latest generated report](examples/weekly-report-2026-09-21.md).
 
 ## Rebuild and test
 
@@ -140,7 +140,7 @@ data/historical/  12 computed weekly evidence snapshots
 powerbi/          Typed queries, measures, relationships, theme and page specifications
 tests/            Python, DOM/API and browser integration checks
 scripts/          Rebuild, asset generation, evidence and package checks
-docs/             Requirements, rules, setup, QA, demos and portfolio material
+docs/             Requirements, architecture, business rules, setup, security and QA evidence
 examples/         Reproducible weekly management reports and latest KPI output
 screenshots/      Actual local-application captures
 ```
@@ -153,8 +153,5 @@ No critical-path scheduling, earned-value control, resource optimisation, recurs
 
 Future improvements within portfolio governance could include approved-source connectors, governed change approval, persisted model versions, retention, access control and report subscriptions. Future portfolio projects remain separate and require explicit authorisation.
 
-## CV, interview and LinkedIn package
-
-[Exactly three defensible CV bullets, interview answers, short explanations, launch post and storyboard](docs/portfolio-package.md).
 
 MIT license applies to this repository's original work. Third-party tools retain their own licenses. **Independent portfolio project; entirely synthetic data.**
