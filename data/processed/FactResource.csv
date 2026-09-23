@@ -1,0 +1,145 @@
+resource_id,resource_name,role,weekly_capacity_hours,reporting_date,allocated_hours,capacity_hours,utilisation_pct,overload_hours
+R01,Demo Specialist 01,Delivery Lead,40,2026-07-06,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-07-06,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-07-06,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-07-06,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-07-06,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-07-06,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-07-06,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-07-06,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-07-06,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-07-06,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-07-06,30,40.0,75.0,0
+R12,Demo Specialist 12,Analyst,40,2026-07-06,30,40.0,75.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-07-13,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-07-13,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-07-13,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-07-13,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-07-13,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-07-13,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-07-13,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-07-13,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-07-13,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-07-13,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-07-13,30,40.0,75.0,0
+R12,Demo Specialist 12,Analyst,40,2026-07-13,30,40.0,75.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-07-20,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-07-20,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-07-20,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-07-20,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-07-20,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-07-20,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-07-20,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-07-20,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-07-20,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-07-20,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-07-20,30,40.0,75.0,0
+R12,Demo Specialist 12,Analyst,40,2026-07-20,30,40.0,75.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-07-27,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-07-27,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-07-27,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-07-27,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-07-27,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-07-27,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-07-27,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-07-27,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-07-27,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-07-27,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-07-27,30,40.0,75.0,0
+R12,Demo Specialist 12,Analyst,40,2026-07-27,30,40.0,75.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-08-03,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-08-03,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-08-03,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-08-03,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-08-03,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-08-03,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-08-03,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-08-03,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-08-03,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-08-03,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-08-03,30,40.0,75.0,0
+R12,Demo Specialist 12,Analyst,40,2026-08-03,30,40.0,75.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-08-10,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-08-10,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-08-10,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-08-10,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-08-10,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-08-10,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-08-10,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-08-10,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-08-10,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-08-10,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-08-10,20,40.0,50.0,0
+R12,Demo Specialist 12,Analyst,40,2026-08-10,20,40.0,50.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-08-17,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-08-17,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-08-17,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-08-17,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-08-17,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-08-17,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-08-17,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-08-17,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-08-17,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-08-17,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-08-17,20,40.0,50.0,0
+R12,Demo Specialist 12,Analyst,40,2026-08-17,20,40.0,50.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-08-24,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-08-24,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-08-24,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-08-24,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-08-24,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-08-24,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-08-24,46,40.0,115.0,6.0
+R08,Demo Specialist 08,Specialist,40,2026-08-24,46,40.0,115.0,6.0
+R09,Demo Specialist 09,Analyst,40,2026-08-24,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-08-24,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-08-24,20,40.0,50.0,0
+R12,Demo Specialist 12,Analyst,40,2026-08-24,20,40.0,50.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-08-31,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-08-31,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-08-31,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-08-31,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-08-31,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-08-31,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-08-31,36,40.0,90.0,0
+R08,Demo Specialist 08,Specialist,40,2026-08-31,36,40.0,90.0,0
+R09,Demo Specialist 09,Analyst,40,2026-08-31,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-08-31,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-08-31,20,40.0,50.0,0
+R12,Demo Specialist 12,Analyst,40,2026-08-31,20,40.0,50.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-09-07,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-09-07,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-09-07,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-09-07,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-09-07,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-09-07,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-09-07,36,40.0,90.0,0
+R08,Demo Specialist 08,Specialist,40,2026-09-07,36,40.0,90.0,0
+R09,Demo Specialist 09,Analyst,40,2026-09-07,30,40.0,75.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-09-07,30,40.0,75.0,0
+R11,Demo Specialist 11,Specialist,40,2026-09-07,20,40.0,50.0,0
+R12,Demo Specialist 12,Analyst,40,2026-09-07,20,40.0,50.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-09-14,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-09-14,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-09-14,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-09-14,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-09-14,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-09-14,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-09-14,36,40.0,90.0,0
+R08,Demo Specialist 08,Specialist,40,2026-09-14,36,40.0,90.0,0
+R09,Demo Specialist 09,Analyst,40,2026-09-14,20,40.0,50.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-09-14,20,40.0,50.0,0
+R11,Demo Specialist 11,Specialist,40,2026-09-14,20,40.0,50.0,0
+R12,Demo Specialist 12,Analyst,40,2026-09-14,20,40.0,50.0,0
+R01,Demo Specialist 01,Delivery Lead,40,2026-09-21,30,40.0,75.0,0
+R02,Demo Specialist 02,Specialist,40,2026-09-21,30,40.0,75.0,0
+R03,Demo Specialist 03,Analyst,40,2026-09-21,46,40.0,115.0,6.0
+R04,Demo Specialist 04,Delivery Lead,40,2026-09-21,46,40.0,115.0,6.0
+R05,Demo Specialist 05,Specialist,40,2026-09-21,46,40.0,115.0,6.0
+R06,Demo Specialist 06,Analyst,40,2026-09-21,46,40.0,115.0,6.0
+R07,Demo Specialist 07,Delivery Lead,40,2026-09-21,36,40.0,90.0,0
+R08,Demo Specialist 08,Specialist,40,2026-09-21,36,40.0,90.0,0
+R09,Demo Specialist 09,Analyst,40,2026-09-21,20,40.0,50.0,0
+R10,Demo Specialist 10,Delivery Lead,40,2026-09-21,20,40.0,50.0,0
+R11,Demo Specialist 11,Specialist,40,2026-09-21,20,40.0,50.0,0
+R12,Demo Specialist 12,Analyst,40,2026-09-21,20,40.0,50.0,0

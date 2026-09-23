@@ -1,0 +1,24 @@
+name: pmo-portfolio-command-center
+services:
+  pmo:
+    build: .
+    ports:
+      - "127.0.0.1:8765:8765"
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - pmo_state:/app/state
+      - pmo_output:/app/output
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8765/api/meta', timeout=5)"]
+      interval: 15s
+      timeout: 6s
+      retries: 3
+volumes:
+  pmo_state:
+  pmo_output:

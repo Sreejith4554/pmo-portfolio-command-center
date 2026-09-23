@@ -1,0 +1,21 @@
+{
+  "synthetic": true,
+  "scenario": false,
+  "reporting_periods": 12,
+  "tables": {
+    "DimProject": 18,
+    "DimPeriod": 12,
+    "DimResource": 12,
+    "DimUpstreamProject": 18,
+    "FactProject": 216,
+    "FactMilestone": 864,
+    "FactRisk": 648,
+    "FactIssue": 432,
+    "FactAction": 648,
+    "FactDependency": 84,
+    "FactAllocation": 432,
+    "FactResource": 144,
+    "FactTask": 2592,
+    "FactCost": 216
+  }
+}

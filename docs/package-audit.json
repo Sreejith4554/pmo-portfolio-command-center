@@ -1,0 +1,9 @@
+{
+  "analytical_tables": 14,
+  "relationships_checked": 22,
+  "project_period_rows": 216,
+  "dax_column_references": "PASS (static only)",
+  "relative_links": "PASS",
+  "focused_secret_scan": "PASS",
+  "source_rows": 6629
+}

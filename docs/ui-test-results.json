@@ -1,0 +1,74 @@
+{
+  "scope": "jsdom DOM integration with actual local Python API; not browser rendering",
+  "checks": 17,
+  "results": [
+    {
+      "test": "Executive view loads live API data",
+      "actual": "PASS"
+    },
+    {
+      "test": "Management view 1 renders",
+      "actual": "PASS"
+    },
+    {
+      "test": "Management view 2 renders",
+      "actual": "PASS"
+    },
+    {
+      "test": "Management view 3 renders",
+      "actual": "PASS"
+    },
+    {
+      "test": "Management view 4 renders",
+      "actual": "PASS"
+    },
+    {
+      "test": "Management view 5 renders",
+      "actual": "PASS"
+    },
+    {
+      "test": "Management view 6 renders",
+      "actual": "PASS"
+    },
+    {
+      "test": "Management view 7 renders",
+      "actual": "PASS"
+    },
+    {
+      "test": "Scenario edit changes mode",
+      "actual": "PASS"
+    },
+    {
+      "test": "Upstream UI edit propagates to dependency",
+      "actual": "PASS"
+    },
+    {
+      "test": "Reset returns to baseline",
+      "actual": "PASS"
+    },
+    {
+      "test": "Invalid update displayed as error",
+      "actual": "PASS"
+    },
+    {
+      "test": "Department filter changes active count",
+      "actual": "PASS"
+    },
+    {
+      "test": "Historic view excludes future periods",
+      "actual": "PASS"
+    },
+    {
+      "test": "Report follows live current-period filter",
+      "actual": "PASS"
+    },
+    {
+      "test": "Analytics export button completes",
+      "actual": "PASS"
+    },
+    {
+      "test": "No JavaScript runtime errors",
+      "actual": "PASS"
+    }
+  ]
+}

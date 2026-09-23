@@ -1,0 +1,217 @@
+assumption_id,project_id,reporting_date,statement,owner_id,review_date,status
+P01-AS1,P01,2026-07-06,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-07-13,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-07-20,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-07-27,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-08-03,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-08-10,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-08-17,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-08-24,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-08-31,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-09-07,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-09-14,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P01-AS1,P01,2026-09-21,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P02-AS1,P02,2026-07-06,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-07-13,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-07-20,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-07-27,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-08-03,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-08-10,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-08-17,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-08-24,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-08-31,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-09-07,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-09-14,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P02-AS1,P02,2026-09-21,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P03-AS1,P03,2026-07-06,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-07-13,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-07-20,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-07-27,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-08-03,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-08-10,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-08-17,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-08-24,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-08-31,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-09-07,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-09-14,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P03-AS1,P03,2026-09-21,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,To validate
+P04-AS1,P04,2026-07-06,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-07-13,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-07-20,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-07-27,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-08-03,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-08-10,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-08-17,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-08-24,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-08-31,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-09-07,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-09-14,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P04-AS1,P04,2026-09-21,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P05-AS1,P05,2026-07-06,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-07-13,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-07-20,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-07-27,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-08-03,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-08-10,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-08-17,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-08-24,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-08-31,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-09-07,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-09-14,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P05-AS1,P05,2026-09-21,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P06-AS1,P06,2026-07-06,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-07-13,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-07-20,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-07-27,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-08-03,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-08-10,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-08-17,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-08-24,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-08-31,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-09-07,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-09-14,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P06-AS1,P06,2026-09-21,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P07-AS1,P07,2026-07-06,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-07-13,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-07-20,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-07-27,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-08-03,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-08-10,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-08-17,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-08-24,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-08-31,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-09-07,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-09-14,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P07-AS1,P07,2026-09-21,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P08-AS1,P08,2026-07-06,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-07-13,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-07-20,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-07-27,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-08-03,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-08-10,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-08-17,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-08-24,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-08-31,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-09-07,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-09-14,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P08-AS1,P08,2026-09-21,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,To validate
+P09-AS1,P09,2026-07-06,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-07-13,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-07-20,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-07-27,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-08-03,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-08-10,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-08-17,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-08-24,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-08-31,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-09-07,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-09-14,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P09-AS1,P09,2026-09-21,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P10-AS1,P10,2026-07-06,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-07-13,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-07-20,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-07-27,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-08-03,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-08-10,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-08-17,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-08-24,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-08-31,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-09-07,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-09-14,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P10-AS1,P10,2026-09-21,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P11-AS1,P11,2026-07-06,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-07-13,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-07-20,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-07-27,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-08-03,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-08-10,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-08-17,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-08-24,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-08-31,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-09-07,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-09-14,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P11-AS1,P11,2026-09-21,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,Validated
+P12-AS1,P12,2026-07-06,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-07-13,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-07-20,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-07-27,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-08-03,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-08-10,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-08-17,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-08-24,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-08-31,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-09-07,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-09-14,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P12-AS1,P12,2026-09-21,Sponsor provides review capacity within the agreed window,SP05,2026-09-28,Validated
+P13-AS1,P13,2026-07-06,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-07-13,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-07-20,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-07-27,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-08-03,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-08-10,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-08-17,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-08-24,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-08-31,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-09-07,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-09-14,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P13-AS1,P13,2026-09-21,Sponsor provides review capacity within the agreed window,SP06,2026-09-28,Validated
+P14-AS1,P14,2026-07-06,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-07-13,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-07-20,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-07-27,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-08-03,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-08-10,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-08-17,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-08-24,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-08-31,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-09-07,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-09-14,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P14-AS1,P14,2026-09-21,Sponsor provides review capacity within the agreed window,SP07,2026-09-28,Validated
+P15-AS1,P15,2026-07-06,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-07-13,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-07-20,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-07-27,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-08-03,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-08-10,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-08-17,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-08-24,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-08-31,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-09-07,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-09-14,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P15-AS1,P15,2026-09-21,Sponsor provides review capacity within the agreed window,SP01,2026-09-28,Validated
+P16-AS1,P16,2026-07-06,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-07-13,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-07-20,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-07-27,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-08-03,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-08-10,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-08-17,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-08-24,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-08-31,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-09-07,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-09-14,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P16-AS1,P16,2026-09-21,Sponsor provides review capacity within the agreed window,SP02,2026-09-28,Validated
+P17-AS1,P17,2026-07-06,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-07-13,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-07-20,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-07-27,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-08-03,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-08-10,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-08-17,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-08-24,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-08-31,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-09-07,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-09-14,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P17-AS1,P17,2026-09-21,Sponsor provides review capacity within the agreed window,SP03,2026-09-28,Validated
+P18-AS1,P18,2026-07-06,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-07-13,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-07-20,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-07-27,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-08-03,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-08-10,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-08-17,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-08-24,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-08-31,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-09-07,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-09-14,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate
+P18-AS1,P18,2026-09-21,Sponsor provides review capacity within the agreed window,SP04,2026-09-28,To validate

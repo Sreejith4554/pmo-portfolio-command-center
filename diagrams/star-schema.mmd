@@ -1,0 +1,11 @@
+flowchart TD
+  PROJECT["DimProject"] --> FACTS["Project and delivery facts"]
+  PERIOD["DimPeriod"] --> FACTS
+  PERIOD --> RESOURCEFACT["FactResource"]
+  RESOURCE["DimResource"] --> RESOURCEFACT
+  RESOURCE --> ALLOC["FactAllocation"]
+  PROJECT --> ALLOC
+  PERIOD --> ALLOC
+  UPSTREAM["DimUpstreamProject"] --> EDGE["FactDependency"]
+  PROJECT --> EDGE
+  PERIOD --> EDGE

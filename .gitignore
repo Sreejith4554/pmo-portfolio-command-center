@@ -1,0 +1,15 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+state/
+output/
+docker-output/
+*.sqlite*
+*.log
+*.zip
+.DS_Store
+# Private interview preparation
+docs/portfolio-package.md
+docs/demo-guide.md

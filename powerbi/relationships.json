@@ -1,0 +1,178 @@
+[
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactAction",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactAction",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactAllocation",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactAllocation",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimResource",
+    "one_column": "resource_id",
+    "many_table": "FactAllocation",
+    "many_column": "resource_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactCost",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactCost",
+    "many_column": "transaction_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactDependency",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactDependency",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimUpstreamProject",
+    "one_column": "upstream_project_id",
+    "many_table": "FactDependency",
+    "many_column": "upstream_project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactIssue",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactIssue",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactMilestone",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactMilestone",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactProject",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactProject",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactResource",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimResource",
+    "one_column": "resource_id",
+    "many_table": "FactResource",
+    "many_column": "resource_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactRisk",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactRisk",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimProject",
+    "one_column": "project_id",
+    "many_table": "FactTask",
+    "many_column": "project_id",
+    "active": true,
+    "direction": "Single"
+  },
+  {
+    "one_table": "DimPeriod",
+    "one_column": "reporting_date",
+    "many_table": "FactTask",
+    "many_column": "reporting_date",
+    "active": true,
+    "direction": "Single"
+  }
+]

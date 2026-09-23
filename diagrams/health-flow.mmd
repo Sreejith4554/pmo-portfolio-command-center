@@ -1,0 +1,7 @@
+flowchart TD
+  VALID["Validate source relationships and dates"] --> METRICS["Calculate eight health dimensions"]
+  METRICS --> RED{"Any Red dimension?"}
+  RED -- Yes --> R["Overall Red"]
+  RED -- No --> AMBER{"Any Amber dimension?"}
+  AMBER -- Yes --> A["Overall Amber"]
+  AMBER -- No --> G["Overall Green"]

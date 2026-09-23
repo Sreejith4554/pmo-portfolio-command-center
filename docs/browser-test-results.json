@@ -1,0 +1,67 @@
+{
+  "scope": "Actual local Chromium rendering and interaction against the Python server",
+  "browser": "153.0.8010.0",
+  "checks": 15,
+  "results": [
+    {
+      "test": "Executive page rendered",
+      "actual": "PASS"
+    },
+    {
+      "test": "View 1 visible",
+      "actual": "PASS"
+    },
+    {
+      "test": "View 2 visible",
+      "actual": "PASS"
+    },
+    {
+      "test": "View 3 visible",
+      "actual": "PASS"
+    },
+    {
+      "test": "View 4 visible",
+      "actual": "PASS"
+    },
+    {
+      "test": "View 5 visible",
+      "actual": "PASS"
+    },
+    {
+      "test": "View 6 visible",
+      "actual": "PASS"
+    },
+    {
+      "test": "View 7 visible",
+      "actual": "PASS"
+    },
+    {
+      "test": "Scenario form saves and updates state",
+      "actual": "PASS"
+    },
+    {
+      "test": "Upstream edit updates downstream exposure in rendered map",
+      "actual": "PASS"
+    },
+    {
+      "test": "Reset returns baseline",
+      "actual": "PASS"
+    },
+    {
+      "test": "Department filter changes rendered totals",
+      "actual": "PASS"
+    },
+    {
+      "test": "Reporting-period selection refreshes view",
+      "actual": "PASS"
+    },
+    {
+      "test": "Mobile viewport has no page-level horizontal overflow",
+      "actual": "PASS"
+    },
+    {
+      "test": "No browser JavaScript errors",
+      "actual": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+erDiagram
+  PROJECT ||--o{ PROJECT_PERIOD : reports
+  PERIOD ||--o{ PROJECT_PERIOD : dates
+  PROJECT ||--o{ MILESTONE_PERIOD : owns
+  PROJECT ||--o{ TASK_PERIOD : owns
+  PROJECT ||--o{ RAID_PERIOD : tracks
+  PROJECT ||--o{ COST_TRANSACTION : incurs
+  RESOURCE ||--o{ ALLOCATION_PERIOD : contributes
+  PROJECT ||--o{ ALLOCATION_PERIOD : consumes
+  MILESTONE_PERIOD ||--o{ DEPENDENCY_PERIOD : supplies
+  TASK_PERIOD ||--o{ DEPENDENCY_PERIOD : requires

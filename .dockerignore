@@ -1,0 +1,8 @@
+.git
+.venv
+node_modules
+state
+output
+screenshots
+__pycache__
+*.zip

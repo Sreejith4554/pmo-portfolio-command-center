@@ -1,0 +1,649 @@
+action_id,project_id,reporting_date,title,owner_id,due_date,status,priority
+P01-A1,P01,2026-07-06,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-07-06,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-07-06,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-07-13,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-07-13,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-07-13,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-07-20,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-07-20,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-07-20,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-07-27,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-07-27,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-07-27,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-08-03,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-08-03,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-08-03,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-08-10,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-08-10,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-08-10,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-08-17,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-08-17,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-08-17,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-08-24,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-08-24,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-08-24,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-08-31,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-08-31,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-08-31,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-09-07,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-09-07,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-09-07,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-09-14,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-09-14,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-09-14,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P01-A1,P01,2026-09-21,Confirm recovery plan,PM01,2026-09-28,Open,High
+P01-A2,P01,2026-09-21,Review forecast and funding,PM01,2026-09-28,Open,Normal
+P01-A3,P01,2026-09-21,Close acceptance evidence,PM01,2026-09-28,Open,Normal
+P02-A1,P02,2026-07-06,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-07-06,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-07-06,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-07-13,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-07-13,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-07-13,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-07-20,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-07-20,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-07-20,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-07-27,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-07-27,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-07-27,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-08-03,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-08-03,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-08-03,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-08-10,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-08-10,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-08-10,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-08-17,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-08-17,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-08-17,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-08-24,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-08-24,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-08-24,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-08-31,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-08-31,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-08-31,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-09-07,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-09-07,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-09-07,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-09-14,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-09-14,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-09-14,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P02-A1,P02,2026-09-21,Confirm recovery plan,PM02,2026-09-28,Open,High
+P02-A2,P02,2026-09-21,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P02-A3,P02,2026-09-21,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P03-A1,P03,2026-07-06,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-07-06,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-07-06,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-07-13,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-07-13,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-07-13,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-07-20,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-07-20,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-07-20,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-07-27,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-07-27,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-07-27,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-08-03,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-08-03,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-08-03,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-08-10,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-08-10,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-08-10,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-08-17,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-08-17,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-08-17,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-08-24,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-08-24,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-08-24,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-08-31,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-08-31,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-08-31,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-09-07,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-09-07,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-09-07,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-09-14,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-09-14,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-09-14,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P03-A1,P03,2026-09-21,Confirm recovery plan,PM03,2026-09-14,Open,High
+P03-A2,P03,2026-09-21,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P03-A3,P03,2026-09-21,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P04-A1,P04,2026-07-06,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-07-06,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-07-06,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-07-13,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-07-13,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-07-13,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-07-20,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-07-20,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-07-20,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-07-27,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-07-27,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-07-27,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-08-03,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-08-03,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-08-03,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-08-10,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-08-10,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-08-10,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-08-17,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-08-17,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-08-17,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-08-24,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-08-24,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-08-24,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-08-31,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-08-31,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-08-31,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-09-07,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-09-07,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-09-07,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-09-14,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-09-14,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-09-14,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P04-A1,P04,2026-09-21,Confirm recovery plan,PM04,2026-09-28,Open,High
+P04-A2,P04,2026-09-21,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P04-A3,P04,2026-09-21,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P05-A1,P05,2026-07-06,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-07-06,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-07-06,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-07-13,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-07-13,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-07-13,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-07-20,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-07-20,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-07-20,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-07-27,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-07-27,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-07-27,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-08-03,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-08-03,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-08-03,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-08-10,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-08-10,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-08-10,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-08-17,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-08-17,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-08-17,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-08-24,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-08-24,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-08-24,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-08-31,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-08-31,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-08-31,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-09-07,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-09-07,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-09-07,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-09-14,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-09-14,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-09-14,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P05-A1,P05,2026-09-21,Confirm recovery plan,PM05,2026-09-28,Open,High
+P05-A2,P05,2026-09-21,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P05-A3,P05,2026-09-21,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P06-A1,P06,2026-07-06,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-07-06,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-07-06,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-07-13,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-07-13,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-07-13,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-07-20,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-07-20,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-07-20,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-07-27,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-07-27,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-07-27,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-08-03,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-08-03,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-08-03,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-08-10,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-08-10,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-08-10,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-08-17,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-08-17,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-08-17,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-08-24,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-08-24,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-08-24,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-08-31,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-08-31,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-08-31,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-09-07,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-09-07,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-09-07,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-09-14,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-09-14,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-09-14,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P06-A1,P06,2026-09-21,Confirm recovery plan,PM06,2026-09-14,Open,High
+P06-A2,P06,2026-09-21,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P06-A3,P06,2026-09-21,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P07-A1,P07,2026-07-06,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-07-06,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-07-06,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-07-13,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-07-13,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-07-13,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-07-20,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-07-20,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-07-20,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-07-27,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-07-27,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-07-27,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-08-03,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-08-03,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-08-03,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-08-10,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-08-10,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-08-10,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-08-17,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-08-17,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-08-17,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-08-24,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-08-24,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-08-24,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-08-31,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-08-31,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-08-31,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-09-07,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-09-07,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-09-07,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-09-14,Confirm recovery plan,PM07,2026-09-28,Open,High
+P07-A2,P07,2026-09-14,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P07-A3,P07,2026-09-14,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P07-A1,P07,2026-09-21,Confirm recovery plan,PM07,2026-09-28,Done,High
+P07-A2,P07,2026-09-21,Review forecast and funding,PM07,2026-09-28,Done,Normal
+P07-A3,P07,2026-09-21,Close acceptance evidence,PM07,2026-09-28,Done,Normal
+P08-A1,P08,2026-07-06,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-07-06,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-07-06,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-07-13,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-07-13,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-07-13,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-07-20,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-07-20,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-07-20,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-07-27,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-07-27,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-07-27,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-08-03,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-08-03,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-08-03,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-08-10,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-08-10,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-08-10,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-08-17,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-08-17,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-08-17,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-08-24,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-08-24,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-08-24,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-08-31,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-08-31,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-08-31,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-09-07,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-09-07,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-09-07,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-09-14,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-09-14,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-09-14,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P08-A1,P08,2026-09-21,Confirm recovery plan,PM08,2026-09-14,Open,High
+P08-A2,P08,2026-09-21,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P08-A3,P08,2026-09-21,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P09-A1,P09,2026-07-06,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-07-06,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-07-06,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-07-13,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-07-13,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-07-13,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-07-20,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-07-20,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-07-20,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-07-27,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-07-27,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-07-27,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-08-03,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-08-03,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-08-03,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-08-10,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-08-10,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-08-10,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-08-17,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-08-17,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-08-17,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-08-24,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-08-24,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-08-24,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-08-31,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-08-31,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-08-31,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-09-07,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-09-07,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-09-07,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-09-14,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-09-14,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-09-14,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P09-A1,P09,2026-09-21,Confirm recovery plan,PM09,2026-09-28,Open,High
+P09-A2,P09,2026-09-21,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P09-A3,P09,2026-09-21,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P10-A1,P10,2026-07-06,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-07-06,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-07-06,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-07-13,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-07-13,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-07-13,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-07-20,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-07-20,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-07-20,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-07-27,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-07-27,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-07-27,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-08-03,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-08-03,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-08-03,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-08-10,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-08-10,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-08-10,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-08-17,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-08-17,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-08-17,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-08-24,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-08-24,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-08-24,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-08-31,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-08-31,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-08-31,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-09-07,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-09-07,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-09-07,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-09-14,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-09-14,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-09-14,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P10-A1,P10,2026-09-21,Confirm recovery plan,PM01,2026-09-14,Open,High
+P10-A2,P10,2026-09-21,Review forecast and funding,PM01,2026-09-14,Open,Normal
+P10-A3,P10,2026-09-21,Close acceptance evidence,PM01,2026-09-14,Open,Normal
+P11-A1,P11,2026-07-06,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-07-06,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-07-06,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-07-13,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-07-13,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-07-13,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-07-20,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-07-20,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-07-20,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-07-27,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-07-27,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-07-27,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-08-03,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-08-03,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-08-03,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-08-10,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-08-10,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-08-10,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-08-17,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-08-17,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-08-17,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-08-24,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-08-24,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-08-24,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-08-31,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-08-31,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-08-31,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-09-07,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-09-07,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-09-07,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-09-14,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-09-14,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-09-14,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P11-A1,P11,2026-09-21,Confirm recovery plan,PM02,2026-09-28,Open,High
+P11-A2,P11,2026-09-21,Review forecast and funding,PM02,2026-09-28,Open,Normal
+P11-A3,P11,2026-09-21,Close acceptance evidence,PM02,2026-09-28,Open,Normal
+P12-A1,P12,2026-07-06,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-07-06,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-07-06,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-07-13,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-07-13,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-07-13,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-07-20,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-07-20,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-07-20,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-07-27,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-07-27,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-07-27,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-08-03,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-08-03,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-08-03,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-08-10,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-08-10,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-08-10,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-08-17,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-08-17,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-08-17,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-08-24,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-08-24,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-08-24,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-08-31,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-08-31,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-08-31,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-09-07,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-09-07,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-09-07,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-09-14,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-09-14,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-09-14,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P12-A1,P12,2026-09-21,Confirm recovery plan,PM03,2026-09-14,Open,High
+P12-A2,P12,2026-09-21,Review forecast and funding,PM03,2026-09-28,Open,Normal
+P12-A3,P12,2026-09-21,Close acceptance evidence,PM03,2026-09-28,Open,Normal
+P13-A1,P13,2026-07-06,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-07-06,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-07-06,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-07-13,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-07-13,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-07-13,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-07-20,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-07-20,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-07-20,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-07-27,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-07-27,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-07-27,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-08-03,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-08-03,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-08-03,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-08-10,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-08-10,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-08-10,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-08-17,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-08-17,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-08-17,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-08-24,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-08-24,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-08-24,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-08-31,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-08-31,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-08-31,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-09-07,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-09-07,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-09-07,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-09-14,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-09-14,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-09-14,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P13-A1,P13,2026-09-21,Confirm recovery plan,PM04,2026-09-28,Open,High
+P13-A2,P13,2026-09-21,Review forecast and funding,PM04,2026-09-28,Open,Normal
+P13-A3,P13,2026-09-21,Close acceptance evidence,PM04,2026-09-28,Open,Normal
+P14-A1,P14,2026-07-06,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-07-06,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-07-06,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-07-13,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-07-13,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-07-13,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-07-20,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-07-20,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-07-20,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-07-27,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-07-27,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-07-27,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-08-03,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-08-03,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-08-03,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-08-10,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-08-10,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-08-10,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-08-17,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-08-17,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-08-17,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-08-24,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-08-24,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-08-24,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-08-31,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-08-31,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-08-31,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-09-07,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-09-07,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-09-07,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-09-14,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-09-14,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-09-14,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P14-A1,P14,2026-09-21,Confirm recovery plan,PM05,2026-09-28,Open,High
+P14-A2,P14,2026-09-21,Review forecast and funding,PM05,2026-09-28,Open,Normal
+P14-A3,P14,2026-09-21,Close acceptance evidence,PM05,2026-09-28,Open,Normal
+P15-A1,P15,2026-07-06,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-07-06,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-07-06,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-07-13,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-07-13,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-07-13,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-07-20,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-07-20,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-07-20,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-07-27,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-07-27,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-07-27,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-08-03,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-08-03,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-08-03,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-08-10,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-08-10,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-08-10,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-08-17,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-08-17,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-08-17,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-08-24,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-08-24,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-08-24,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-08-31,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-08-31,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-08-31,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-09-07,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-09-07,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-09-07,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-09-14,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-09-14,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-09-14,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P15-A1,P15,2026-09-21,Confirm recovery plan,PM06,2026-09-28,Open,High
+P15-A2,P15,2026-09-21,Review forecast and funding,PM06,2026-09-28,Open,Normal
+P15-A3,P15,2026-09-21,Close acceptance evidence,PM06,2026-09-28,Open,Normal
+P16-A1,P16,2026-07-06,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-07-06,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-07-06,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-07-13,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-07-13,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-07-13,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-07-20,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-07-20,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-07-20,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-07-27,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-07-27,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-07-27,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-08-03,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-08-03,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-08-03,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-08-10,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-08-10,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-08-10,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-08-17,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-08-17,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-08-17,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-08-24,Confirm recovery plan,PM07,2026-09-28,Open,High
+P16-A2,P16,2026-08-24,Review forecast and funding,PM07,2026-09-28,Open,Normal
+P16-A3,P16,2026-08-24,Close acceptance evidence,PM07,2026-09-28,Open,Normal
+P16-A1,P16,2026-08-31,Confirm recovery plan,PM07,2026-09-28,Done,High
+P16-A2,P16,2026-08-31,Review forecast and funding,PM07,2026-09-28,Done,Normal
+P16-A3,P16,2026-08-31,Close acceptance evidence,PM07,2026-09-28,Done,Normal
+P16-A1,P16,2026-09-07,Confirm recovery plan,PM07,2026-09-28,Done,High
+P16-A2,P16,2026-09-07,Review forecast and funding,PM07,2026-09-28,Done,Normal
+P16-A3,P16,2026-09-07,Close acceptance evidence,PM07,2026-09-28,Done,Normal
+P16-A1,P16,2026-09-14,Confirm recovery plan,PM07,2026-09-28,Done,High
+P16-A2,P16,2026-09-14,Review forecast and funding,PM07,2026-09-28,Done,Normal
+P16-A3,P16,2026-09-14,Close acceptance evidence,PM07,2026-09-28,Done,Normal
+P16-A1,P16,2026-09-21,Confirm recovery plan,PM07,2026-09-28,Done,High
+P16-A2,P16,2026-09-21,Review forecast and funding,PM07,2026-09-28,Done,Normal
+P16-A3,P16,2026-09-21,Close acceptance evidence,PM07,2026-09-28,Done,Normal
+P17-A1,P17,2026-07-06,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-07-06,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-07-06,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-07-13,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-07-13,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-07-13,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-07-20,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-07-20,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-07-20,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-07-27,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-07-27,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-07-27,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-08-03,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-08-03,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-08-03,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-08-10,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-08-10,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-08-10,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-08-17,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-08-17,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-08-17,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-08-24,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-08-24,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-08-24,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-08-31,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-08-31,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-08-31,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-09-07,Confirm recovery plan,PM08,2026-09-28,Open,High
+P17-A2,P17,2026-09-07,Review forecast and funding,PM08,2026-09-28,Open,Normal
+P17-A3,P17,2026-09-07,Close acceptance evidence,PM08,2026-09-28,Open,Normal
+P17-A1,P17,2026-09-14,Confirm recovery plan,PM08,2026-09-28,Done,High
+P17-A2,P17,2026-09-14,Review forecast and funding,PM08,2026-09-28,Done,Normal
+P17-A3,P17,2026-09-14,Close acceptance evidence,PM08,2026-09-28,Done,Normal
+P17-A1,P17,2026-09-21,Confirm recovery plan,PM08,2026-09-28,Done,High
+P17-A2,P17,2026-09-21,Review forecast and funding,PM08,2026-09-28,Done,Normal
+P17-A3,P17,2026-09-21,Close acceptance evidence,PM08,2026-09-28,Done,Normal
+P18-A1,P18,2026-07-06,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-07-06,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-07-06,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-07-13,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-07-13,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-07-13,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-07-20,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-07-20,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-07-20,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-07-27,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-07-27,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-07-27,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-08-03,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-08-03,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-08-03,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-08-10,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-08-10,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-08-10,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-08-17,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-08-17,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-08-17,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-08-24,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-08-24,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-08-24,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-08-31,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-08-31,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-08-31,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-09-07,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-09-07,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-09-07,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-09-14,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-09-14,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-09-14,Close acceptance evidence,PM09,2026-09-28,Open,Normal
+P18-A1,P18,2026-09-21,Confirm recovery plan,PM09,2026-09-28,Open,High
+P18-A2,P18,2026-09-21,Review forecast and funding,PM09,2026-09-28,Open,Normal
+P18-A3,P18,2026-09-21,Close acceptance evidence,PM09,2026-09-28,Open,Normal

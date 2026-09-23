@@ -1,0 +1,96 @@
+// Create each measure individually in Power BI Desktop.
+// Snapshot guard prevents double-counting across reporting periods.
+Selected Reporting Date = SELECTEDVALUE(DimPeriod[reporting_date])
+
+Active Projects =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    COALESCE(CALCULATE(COUNTROWS(FactProject), KEEPFILTERS(FactProject[lifecycle] = "Active")), 0))
+
+Healthy Projects =
+CALCULATE([Active Projects], KEEPFILTERS(FactProject[overall_rag] = "Green"))
+
+At Risk Projects =
+CALCULATE([Active Projects], KEEPFILTERS(FactProject[overall_rag] = "Amber"))
+
+Critical Projects =
+CALCULATE([Active Projects], KEEPFILTERS(FactProject[overall_rag] = "Red"))
+
+Approved Budget =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[approved_budget]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Actual Spend =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[actual_cost]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Planned Cost To Date =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[planned_cost]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Forecast Spend =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[forecast_cost]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Forecast Variance = [Forecast Spend] - [Approved Budget]
+Forecast Variance Percent = DIVIDE([Forecast Variance], [Approved Budget])
+Actual Versus Plan = [Actual Spend] - [Planned Cost To Date]
+
+Projects Forecast Over Budget =
+CALCULATE([Active Projects], KEEPFILTERS(FactProject[forecast_variance] > 0))
+
+Milestones Due =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[milestones_due]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Overdue Milestones =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[overdue_milestones]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Critical Milestones Overdue =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[critical_milestones_overdue]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Open Risks =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[open_risks]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Critical Risks =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[critical_risks]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Open Issues =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[open_issues]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Critical Issues =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[critical_issues]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Overdue Actions =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[overdue_actions]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Dependency Exposure =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(SUM(FactProject[dependency_exposure]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Average Schedule Variance =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(AVERAGE(FactProject[schedule_variance_days]), KEEPFILTERS(FactProject[lifecycle] = "Active")))
+
+Average Completion Percent =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    DIVIDE(CALCULATE(AVERAGE(FactProject[percentage_complete]), KEEPFILTERS(FactProject[lifecycle] = "Active")), 100))
+
+Previous Period Red Projects =
+VAR CurrentIndex = SELECTEDVALUE(DimPeriod[period_index])
+RETURN IF(NOT ISBLANK(CurrentIndex),
+    CALCULATE([Critical Projects], REMOVEFILTERS(DimPeriod), DimPeriod[period_index] = CurrentIndex - 1))
+
+Red Project Change =
+IF(NOT ISBLANK([Previous Period Red Projects]), [Critical Projects] - [Previous Period Red Projects])
+
+Portfolio Overloaded Resources =
+IF(HASONEVALUE(DimPeriod[reporting_date]),
+    CALCULATE(COUNTROWS(FactResource), KEEPFILTERS(FactResource[overload_hours] > 0)))
+// FactResource has no Project relationship. This resource KPI is portfolio-wide.

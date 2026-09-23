@@ -1,0 +1,19 @@
+project_id,project_name,department_id,manager_id,sponsor_id,priority,planned_start,planned_finish,story
+P01,Cedar Service Standards,D1,PM01,SP01,Medium,2026-06-01,2026-10-05,Stable service rollout
+P02,Harbor Customer Onboarding,D2,PM02,SP02,Medium,2026-06-01,2026-10-05,Moderate schedule and cost pressure
+P03,Summit Supplier Portal,D3,PM03,SP03,High,2026-06-01,2026-10-05,Supplier delay with downstream exposure
+P04,Orion Order Integration,D4,PM04,SP04,Medium,2026-06-01,2026-10-05,Integration depends on supplier portal
+P05,Meadow Network Expansion,D5,PM05,SP05,Medium,2026-06-01,2026-10-05,Forecast funding gap
+P06,Atlas Access Controls,D6,PM06,SP06,High,2026-06-01,2026-10-05,Unmitigated access-control risk
+P07,River Fulfilment Recovery,D7,PM07,SP07,Medium,2026-06-01,2026-10-05,Recovery after mitigation and replanning
+P08,Beacon Finance Platform,D1,PM08,SP01,Medium,2026-06-01,2026-10-05,Progressive deterioration across reporting periods
+P09,Willow Knowledge Service,D2,PM09,SP02,High,2026-06-01,2026-10-05,Stable delivery
+P10,Juniper Reporting Hub,D3,PM01,SP03,Medium,2026-06-01,2026-10-05,Overdue governance actions
+P11,Birch Procurement Refresh,D4,PM02,SP04,Medium,2026-06-01,2026-10-05,Supplier uncertainty requiring mitigation
+P12,Maple Invoice Controls,D5,PM03,SP05,High,2026-06-01,2026-10-05,Critical control defect
+P13,Elm Customer Insights,D6,PM04,SP06,Medium,2026-06-01,2026-10-05,Healthy insight delivery
+P14,Pine Distribution Readiness,D7,PM05,SP07,Medium,2026-06-01,2026-10-05,Moderate forecast overrun
+P15,Aspen Commercial Launch,D1,PM06,SP01,High,2026-06-01,2026-10-05,Commercial readiness dependency
+P16,Laurel Closeout,D2,PM07,SP02,Medium,2026-06-01,2026-08-31,Completed on time
+P17,Olive Service Transition,D3,PM08,SP03,Medium,2026-06-01,2026-09-07,Completed late within approved budget
+P18,Acacia Operating Model,D4,PM09,SP04,High,2026-06-01,2026-10-05,On hold pending sponsor decision

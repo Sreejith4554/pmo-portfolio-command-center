@@ -1,0 +1,350 @@
+{
+  "scope": "Executed Python rules, persistence, export and local HTTP tests",
+  "executed_at": "2026-09-23T16:47:19.169829+00:00",
+  "python": "3.12.14",
+  "tests": 68,
+  "failures": 0,
+  "errors": 0,
+  "results": [
+    {
+      "test": "test_portfolio.Calculations.test_amber",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_budget_change_history",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_budget_movement_is_real_data",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_closed_risk_no_escalation",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_completed_excluded_active_totals",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_completed_late_milestone",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_cost_not_earned_value",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_critical_issue",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_critical_risk_override",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_dependency_real_join",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_deterioration_history",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_due_today_not_overdue",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_empty_filter",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_filter_does_not_hide_other_allocations",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_financial_reconcile",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_green",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_latest_rag_mix",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_milestone_effective_date_floor",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_project_count",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_recovery_history",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_red_forecast",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_report_required_sections",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_report_same_kpis",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_resource_overload",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_risk_exposure",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_threshold_exact_boundaries",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_twelve_periods",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Calculations.test_upstream_edit_propagates",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.HTTP.test_actual_http_portfolio",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.HTTP.test_cross_origin_blocked",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.HTTP.test_host_rebinding_blocked",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.HTTP.test_http_filter",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.HTTP.test_write_and_read_http",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.HTTP.test_write_without_token_blocked",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_arbitrary_field_rejected",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_baseline_unchanged",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_completed_milestone_locked",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_exports_keys_and_row_count",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_invalid_edit_rollback",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_reject_stale_revision",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_reset_preserves_audit",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_rule_change_persists",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Scenarios.test_saved_edit_and_restart",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_actual_finish_before_start",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_bad_threshold_order",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_boolean_risk_score_rejected",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_completed_project_deliverables",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_deterministic_generation",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_duplicate_id",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_forecast_below_actual",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_full_fixture_valid",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_future_actual_milestone",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_impact_bounds",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_incomplete_snapshot",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_invalid_date",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_milestone_baselines_stable",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_mismatched_dependency_milestone",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_mismatched_downstream_task",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_nan_cost",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_negative_actual_cost",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_nonexistent_period",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_orphan_dependency_project",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_orphan_milestone",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_probability_bounds",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_project_finish_before_start",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_reporting_timestamps_never_regress",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_unknown_resource",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    },
+    {
+      "test": "test_portfolio.Validation.test_zero_budget",
+      "expected": "All assertions pass",
+      "actual": "PASS"
+    }
+  ]
+}

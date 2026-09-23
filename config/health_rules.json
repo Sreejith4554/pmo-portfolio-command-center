@@ -1,0 +1,12 @@
+{
+  "schedule_amber_days": 5,
+  "schedule_red_days": 14,
+  "cost_amber_pct": 5,
+  "cost_red_pct": 15,
+  "risk_amber_exposure": 12,
+  "risk_red_exposure": 20,
+  "dependency_red_days": 7,
+  "action_red_count": 3,
+  "stale_reporting_days": 10,
+  "resource_capacity_hours": 40
+}

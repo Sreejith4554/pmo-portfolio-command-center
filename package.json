@@ -1,0 +1,8 @@
+{
+  "name": "pmo-portfolio-command-center-tests",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional developer UI tests; no Node dependency for running the PMO tool",
+  "scripts": {"test:ui": "node tests/ui.integration.cjs", "test:browser": "node tests/browser.integration.cjs", "check": "node --check dashboard/app.js"},
+  "devDependencies": {"jsdom": "30.1.1", "playwright": "1.62.1"}
+}

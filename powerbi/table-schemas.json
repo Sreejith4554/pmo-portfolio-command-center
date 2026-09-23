@@ -1,0 +1,872 @@
+{
+  "DimPeriod": {
+    "rows": 12,
+    "columns": [
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "period_index",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "period_label",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "DimProject": {
+    "rows": 18,
+    "columns": [
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_name",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "department_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "manager_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "sponsor_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "priority",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "planned_start",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "planned_finish",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "story",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "department",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "manager",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "sponsor",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "DimResource": {
+    "rows": 12,
+    "columns": [
+      {
+        "name": "resource_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "resource_name",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "role",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "weekly_capacity_hours",
+        "type": "int64",
+        "nullable": false
+      }
+    ]
+  },
+  "DimUpstreamProject": {
+    "rows": 18,
+    "columns": [
+      {
+        "name": "upstream_project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "upstream_project_name",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "FactAction": {
+    "rows": 648,
+    "columns": [
+      {
+        "name": "action_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "owner_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "due_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "priority",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "overdue",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "owner",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "FactAllocation": {
+    "rows": 432,
+    "columns": [
+      {
+        "name": "allocation_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "resource_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "allocated_hours",
+        "type": "int64",
+        "nullable": false
+      }
+    ]
+  },
+  "FactCost": {
+    "rows": 216,
+    "columns": [
+      {
+        "name": "cost_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "transaction_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "category",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "amount",
+        "type": "int64",
+        "nullable": false
+      }
+    ]
+  },
+  "FactDependency": {
+    "rows": 84,
+    "columns": [
+      {
+        "name": "dependency_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "upstream_project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "upstream_milestone_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "downstream_task_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "owner_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "lag_days",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "criticality",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "required_action",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "available_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "needed_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "exposure_days",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "upstream_project",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "downstream_project",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "severe",
+        "type": "int64",
+        "nullable": false
+      }
+    ]
+  },
+  "FactIssue": {
+    "rows": 432,
+    "columns": [
+      {
+        "name": "issue_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "owner_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "severity",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "opened_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "due_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "resolution_date",
+        "type": "date",
+        "nullable": true
+      },
+      {
+        "name": "required_action",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "age_days",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "overdue",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "critical",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "escalation_status",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "owner",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "FactMilestone": {
+    "rows": 864,
+    "columns": [
+      {
+        "name": "milestone_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "milestone_name",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "baseline_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "forecast_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "actual_date",
+        "type": "date",
+        "nullable": true
+      },
+      {
+        "name": "criticality",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "days_variance",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "overdue",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "critical_overdue",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "due_next_14_days",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "FactProject": {
+    "rows": 216,
+    "columns": [
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "lifecycle",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "phase",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "forecast_finish",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "actual_finish",
+        "type": "date",
+        "nullable": true
+      },
+      {
+        "name": "last_reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "approved_budget",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "planned_cost",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "forecast_cost",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "actual_cost",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "budget_remaining",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "actual_vs_planned",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "actual_vs_planned_pct",
+        "type": "number",
+        "nullable": false
+      },
+      {
+        "name": "forecast_variance",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "forecast_variance_pct",
+        "type": "number",
+        "nullable": false
+      },
+      {
+        "name": "schedule_variance_days",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "percentage_complete",
+        "type": "number",
+        "nullable": false
+      },
+      {
+        "name": "overall_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "open_risks",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "critical_risks",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "risk_exposure",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "open_issues",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "critical_issues",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "overdue_actions",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "overdue_tasks",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "overdue_milestones",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "critical_milestones_overdue",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "milestones_due",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "dependency_exposure",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "schedule_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "cost_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "risk_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "issues_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "milestones_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "dependencies_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "actions_rag",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_rag",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "FactResource": {
+    "rows": 144,
+    "columns": [
+      {
+        "name": "resource_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "resource_name",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "role",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "weekly_capacity_hours",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "allocated_hours",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "capacity_hours",
+        "type": "number",
+        "nullable": false
+      },
+      {
+        "name": "utilisation_pct",
+        "type": "number",
+        "nullable": false
+      },
+      {
+        "name": "overload_hours",
+        "type": "number",
+        "nullable": false
+      }
+    ]
+  },
+  "FactRisk": {
+    "rows": 648,
+    "columns": [
+      {
+        "name": "risk_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "title",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "owner_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "probability",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "impact",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "status",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "opened_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "due_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "mitigation",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "mitigation_status",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "exposure",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "age_days",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "overdue",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "critical",
+        "type": "int64",
+        "nullable": false
+      },
+      {
+        "name": "escalation_status",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "owner",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  },
+  "FactTask": {
+    "rows": 2592,
+    "columns": [
+      {
+        "name": "task_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "project_id",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "reporting_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "task_name",
+        "type": "text",
+        "nullable": false
+      },
+      {
+        "name": "planned_start",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "due_date",
+        "type": "date",
+        "nullable": false
+      },
+      {
+        "name": "actual_finish",
+        "type": "date",
+        "nullable": true
+      },
+      {
+        "name": "owner_id",
+        "type": "text",
+        "nullable": false
+      }
+    ]
+  }
+}

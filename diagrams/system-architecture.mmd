@@ -1,0 +1,10 @@
+flowchart TD
+  GEN["Deterministic synthetic generator"] --> RAW["16 relational source tables"]
+  RAW --> VALIDATE["Data-quality validation"]
+  VALIDATE --> ENGINE["PMO calculation engine"]
+  SCENARIO["SQLite scenario overlay and audit"] --> ENGINE
+  RULES["Configurable governance thresholds"] --> ENGINE
+  ENGINE --> UI["Seven-view local management interface"]
+  ENGINE --> REPORT["Weekly management report"]
+  ENGINE --> STAR["14 analytical tables"]
+  STAR --> BI["Power BI Desktop assembly"]

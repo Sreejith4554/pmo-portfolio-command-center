@@ -1,0 +1,8 @@
+flowchart TD
+  UP["P03 Supplier Portal"] --> M["P03-M3 readiness gate"]
+  M --> AVAIL["Available 5 October"]
+  DOWN["P04 Order Integration"] --> TASK["P04-T12 delivery activity"]
+  TASK --> NEED["Needed 21 September"]
+  AVAIL --> GAP["14-day direct exposure"]
+  NEED --> GAP
+  GAP --> DECISION["Recovery or contingency decision"]
