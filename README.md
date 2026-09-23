@@ -1,5 +1,34 @@
 # PMO Portfolio Command Center
 
+**Portfolio governance · Project controls · RAID · Financials · Dependencies · Resource visibility**
+
+A portfolio-level PMO command center that turns project, milestone, RAID, financial, resource and dependency data into management-ready portfolio visibility.
+
+Built around a synthetic portfolio of **18 projects across 7 departments and 12 weekly reporting periods**, with configurable health rules, scenario analysis, cross-project dependency exposure and reproducible weekly reporting.
+
+> **Independent portfolio project:** All data is synthetic. This project does not represent an implementation for a real employer or customer.
+
+![PMO Portfolio Command Center](screenshots/executive-portfolio.png)
+
+## Skills demonstrated
+
+**PMO & Delivery:** Portfolio governance · Project health · RAID management · Milestone tracking · Dependency management · Resource visibility · Financial monitoring · Executive reporting
+
+**Analytics:** KPI design · Scenario analysis · Data modelling · Power BI preparation · DAX · Power Query
+
+**Technical:** Python · SQL/SQLite · JavaScript · Git/GitHub · Automated validation
+
+## System preview
+
+### Executive portfolio
+![Executive portfolio](screenshots/executive-portfolio.png)
+
+### Cross-project dependency analysis
+![Dependency scenario](screenshots/dependency-scenario.png)
+
+### Project-level investigation
+![Project detail](screenshots/project-detail.png)
+
 **INDEPENDENT PORTFOLIO PROJECT · Project delivery + PMO + Business operations**
 
 A functioning local management system for **18 synthetic projects across seven departments and 12 weekly reporting periods**. Review portfolio health, investigate evidence, change synthetic assumptions, see cross-project exposure change and reproduce the weekly PMO report.
