@@ -2,7 +2,7 @@
 
 **Portfolio governance · Project controls · RAID · Financials · Dependencies · Resource visibility**
 
-A portfolio-level PMO command center that turns project, milestone, RAID, financial, resource and dependency data into management-ready portfolio visibility.
+A portfolio-level PMO command center that turns project, milestone, RAID, financial, resource and dependency data into **management-ready portfolio visibility**.
 
 Built around a synthetic portfolio of **18 projects across 7 departments and 12 weekly reporting periods**, with configurable health rules, scenario analysis, cross-project dependency exposure and reproducible weekly reporting.
 
@@ -20,167 +20,401 @@ Built around a synthetic portfolio of **18 projects across 7 departments and 12 
 
 ## System preview
 
-### Executive portfolio
-![Executive portfolio](screenshots/executive-portfolio.png)
-
 ### Cross-project dependency analysis
+
 ![Dependency scenario](screenshots/dependency-scenario.png)
 
 ### Project-level investigation
+
 ![Project detail](screenshots/project-detail.png)
-
-**INDEPENDENT PORTFOLIO PROJECT · Project delivery + PMO + Business operations**
-
-A functioning local management system for **18 synthetic projects across seven departments and 12 weekly reporting periods**. Review portfolio health, investigate evidence, change synthetic assumptions, see cross-project exposure change and reproduce the weekly PMO report.
-
-> This project uses entirely synthetic data and represents an independent portfolio project. It does not represent an implementation for a real employer or customer.
-
-![Running local executive portfolio](screenshots/executive-portfolio.png)
 
 ## Start in one command
 
-With Python 3.12+ installed, from the extracted repository folder:
+With Python 3.12+ installed, run from the repository folder:
 
 ```powershell
 python run.py
 ```
 
-Open **http://localhost:8765**. No pip runtime packages, credentials, paid API or n8n connection are required. [Windows setup and optional Docker instructions](docs/setup-guide.md).
+Then open:
 
-The existing delivery-automation project remains separate and unchanged. This repository implements **Project 1 only**; it contains no implementation of the future planning, resource-optimisation, process or recovery simulators.
+```text
+http://localhost:8765
+```
+
+No pip runtime packages, credentials, paid API or external service connection are required.
+
+See the [Windows setup and optional Docker instructions](docs/setup-guide.md) for additional setup information.
 
 ## Business problem
 
-A portfolio summary is only useful if a PMO can explain the colour, identify an accountable owner and connect the exception to a decision. Separate project lists, RAID logs and financial sheets can obscure cross-project dependencies and make weekly reporting inconsistent.
+Portfolio reporting becomes difficult when project status, RAID records, financial information, milestones, resource allocations and dependencies are maintained separately.
 
-This system combines normalized source records with explicit governance rules. A delayed supplier gate is joined to the receiving project's activity; a red financial status is backed by forecast and approved-budget values; a report is generated from the same calculations as the interface and analytical exports.
+A portfolio summary is only useful if a PMO can explain the status, identify an accountable owner, trace the underlying evidence and connect an exception to a management decision.
 
-## What you can do
+This project combines normalized project records with explicit governance rules to create a consistent portfolio view.
 
-- Filter by reporting period, department and health; drill into individual projects.
+For example:
+
+- a delayed upstream milestone is connected to the downstream activity that depends on it;
+- financial health is backed by approved budget, actual spend and forecast values;
+- risks, issues and overdue actions remain connected to accountable owners;
+- shared-resource allocations can be reviewed across projects;
+- weekly reports are generated from the same calculations used by the management interface.
+
+The goal is not to automate project-management judgment. The system provides **structured evidence for governance, exception analysis and management decisions**.
+
+## What the system can do
+
+- Filter the portfolio by reporting period, department and health status.
+- Drill from portfolio-level indicators into individual projects.
 - Inspect milestone baselines, forecasts, actual completion and overdue gates.
-- Review risk exposure, issues, action ownership, age and escalation.
-- Follow real upstream-milestone/downstream-task dependency relationships.
-- Reconcile cumulative actual spend with transactions and compare forecast with approved budget.
-- Identify shared-resource overload without hiding allocations from other departments.
-- Save reversible synthetic scenario edits with revision checks and an audit trail.
-- Change health thresholds and observe the recalculated scenario history.
-- Export analytical datasets and download a reproducible weekly management report.
-
-Technology supports the professional story: **governance, project visibility, exception analysis and accountable decisions**. This is not a claim of employer deployment, realised savings or automated project-management judgment.
+- Review risks, issues, assumptions, actions, ownership, age and escalation.
+- Follow upstream milestone → downstream task dependency relationships.
+- Quantify direct schedule exposure between dependent projects.
+- Reconcile cumulative actual spend with underlying transactions.
+- Compare forecast spend with approved project budgets.
+- Identify shared-resource overload across departments and projects.
+- Save reversible synthetic scenario changes with revision checks and an audit trail.
+- Modify health thresholds and observe recalculated portfolio results.
+- Review historical project-health evolution across reporting periods.
+- Export analytical datasets.
+- Generate a reproducible weekly PMO management report.
 
 ## Running-system validation
 
-The Python service and calculations were executed. Automated tests cover source integrity, financial reconciliation, health boundaries, real dependency joins, history, scenario persistence and HTTP requests. DOM integration checks exercise the actual UI against the running API. Real local Chromium checks cover all seven views, edits, reset, filters and mobile overflow. Screenshots are captured from the actual application, not mockups.
+The Python service and calculation engine were executed and tested.
 
-See [test results](docs/test-results.md), [browser evidence](docs/browser-test-results.json), [UI/API evidence](docs/ui-test-results.json) and [quality gate](docs/quality-gate.md) for exact executed counts and limitations.
+Automated validation covers:
 
-**Power BI boundary:** typed datasets, Power Query, DAX, relationships, theme and page specifications are supplied. No PBIX was fabricated. Power BI Desktop assembly and DAX/M execution are remaining local steps. Optional Docker runtime and Windows-specific execution were not available in the build environment; the Python launch path was verified on Linux.
+- source-data integrity;
+- financial reconciliation;
+- health-rule boundaries;
+- dependency joins;
+- historical reporting periods;
+- scenario persistence;
+- HTTP requests;
+- DOM/API integration;
+- interface behaviour;
+- scenario edits and resets;
+- filters;
+- responsive/mobile overflow.
+
+Screenshots in this repository were captured from the running application rather than created as mockups.
+
+Detailed evidence is available in:
+
+- [Test results](docs/test-results.md)
+- [Browser test evidence](docs/browser-test-results.json)
+- [UI/API evidence](docs/ui-test-results.json)
+- [Quality gate](docs/quality-gate.md)
+
+### Power BI boundary
+
+The repository includes:
+
+- typed analytical datasets;
+- Power Query definitions;
+- DAX measures;
+- model relationships;
+- report theme;
+- page specifications;
+- validation totals.
+
+A `.pbix` file has **not** been fabricated or represented as completed.
+
+Power BI Desktop assembly and final DAX/M execution remain local implementation steps.
 
 ## Portfolio scenario
 
-| Project story | Evidence and decision |
-|---|---|
-| Summit Supplier Portal → Orion Order Integration | P03-M3 is available 5 October; P04-T12 needs it 21 September: 14 days direct exposure. Agree supplier recovery or receiving-project contingency. |
-| Meadow Network Expansion | 25% forecast overrun: sponsor must choose containment, scope reduction or funding review. |
-| Atlas Access Controls | Unmitigated critical risk: establish mitigation ownership and evidence. |
-| River Fulfilment Recovery | Health improves from Red to Green across the 12 periods, with recorded budget and forecast changes. |
-| Beacon Finance Platform | Schedule, risk and financial indicators deteriorate over time. |
-| Laurel / Olive | Completed project records retain on-time/late history and leave Active executive totals. |
-| Acacia Operating Model | On Hold remains visible without being counted as active delivery. |
+The synthetic portfolio contains deliberately different project situations so that portfolio-management behaviour can be demonstrated.
 
-Latest baseline, **2026-09-21**:
+| Project story | Evidence and management question |
+|---|---|
+| **Summit Supplier Portal → Orion Order Integration** | P03-M3 is available 5 October while P04-T12 requires it 21 September, creating 14 days of direct dependency exposure. |
+| **Meadow Network Expansion** | Forecast cost is 25% above approved budget, requiring containment, scope or funding review. |
+| **Atlas Access Controls** | An unmitigated critical risk requires mitigation ownership and evidence. |
+| **River Fulfilment Recovery** | Health improves from Red to Green across the reporting history alongside recorded budget and forecast changes. |
+| **Beacon Finance Platform** | Schedule, risk and financial indicators deteriorate over time. |
+| **Laurel / Olive** | Completed projects retain historical delivery evidence while leaving Active executive totals. |
+| **Acacia Operating Model** | On Hold remains visible in the portfolio without being counted as active delivery. |
+
+## Latest baseline
+
+Reporting period: **2026-09-21**
 
 | Measure | Result |
 |---|---:|
-| Projects / Active / Completed / On Hold | 18 / 15 / 2 / 1 |
-| Active Green / Amber / Red | 4 / 3 / 8 |
+| Projects | 18 |
+| Active | 15 |
+| Completed | 2 |
+| On Hold | 1 |
+| Active Green | 4 |
+| Active Amber | 3 |
+| Active Red | 8 |
 | Approved Active budget | €6,775,000 |
 | Actual Active spend | €5,888,268 |
 | Forecast Active spend | €7,079,750 |
 | Forecast variance | €304,750 / 4.50% |
-| Overdue / critical overdue milestones | 8 / 4 |
+| Overdue milestones | 8 |
+| Critical overdue milestones | 4 |
 | Exposed incoming dependencies | 2 |
 | Overloaded shared resources | 4 |
 
-These figures are simulated, not organisational results. Every reporting period has its own source facts and computed outputs.
+> These figures are simulated portfolio data and are not organisational or employer results.
 
-## Architecture and data model
+Every reporting period contains its own source facts and computed outputs.
+
+## Architecture
 
 ```mermaid
 flowchart TD
-  SOURCE["16 relational synthetic tables"] --> VALIDATE["Validation"]
-  VALIDATE --> ENGINE["PMO rules and calculations"]
-  SCENARIO["Saved scenario overlay"] --> ENGINE
-  ENGINE --> APP["Seven management views"]
-  ENGINE --> REPORT["Weekly PMO report"]
-  ENGINE --> DATA["14 analytical tables"]
-  DATA --> POWERBI["Power BI Desktop setup"]
+    SOURCE["16 relational synthetic source tables"] --> VALIDATE["Data validation"]
+    VALIDATE --> ENGINE["PMO rules & calculation engine"]
+    SCENARIO["Scenario overlay"] --> ENGINE
+
+    ENGINE --> APP["Seven management views"]
+    ENGINE --> REPORT["Weekly PMO report"]
+    ENGINE --> DATA["14 analytical tables"]
+
+    DATA --> POWERBI["Power BI Desktop handoff"]
 ```
 
-Runtime: Python standard library, SQLite scenario state, local HTML/CSS/JavaScript. Tests optionally use Node.js, jsdom and Playwright. Docker is optional, not required infrastructure.
+The runtime uses:
 
-Source entities include projects, departments, people (coordinators and sponsors), resources, periods, statuses, budgets, cost transactions, tasks, milestones, risks, issues, actions, assumptions, dependencies and allocations. The processed model has separate facts and four dimensions: project, period, resource and upstream-project role. **216 project-period records** support history. No giant all-purpose flat CSV is used. [Architecture](docs/architecture.md) · [data model](docs/data-model.md).
+- Python standard library;
+- SQLite for scenario state;
+- local HTML/CSS/JavaScript;
+- optional Node.js/jsdom/Playwright for interface testing;
+- optional Docker packaging.
 
-## Health and KPIs
+Docker is not required to run the application.
 
-Overall health is the worst of eight transparent dimensions: schedule, cost, risk, issues, milestones, dependencies, actions and reporting freshness. Configurable rules default to schedule Amber at 5 days / Red at 14, forecast cost Amber at 5% / Red at 15%, and an immediate Red for a critical overdue milestone or unresolved critical issue. Open risk exposure ≥20 with mitigation not started is Red. [Exact formulas and exceptions](docs/business-rules.md).
+## Data model
 
-Headline KPIs answer management questions: how much work is active, what needs intervention, which gates/actions are overdue, where forecast funding is exposed, and which dependencies/resources need attention. Counts and financial totals are Active-only; lifecycle is separate from health. Task completion is unweighted, and no earned-value metric is claimed.
+Source entities include:
+
+- projects;
+- departments;
+- people;
+- coordinators and sponsors;
+- resources;
+- reporting periods;
+- statuses;
+- budgets;
+- cost transactions;
+- tasks;
+- milestones;
+- risks;
+- issues;
+- actions;
+- assumptions;
+- dependencies;
+- allocations.
+
+The processed analytical model separates facts from dimensions rather than relying on one large flattened dataset.
+
+Dimensions include:
+
+- project;
+- reporting period;
+- resource;
+- upstream-project role.
+
+The historical model contains **216 project-period records** across 12 reporting periods.
+
+See:
+
+- [Architecture](docs/architecture.md)
+- [Data model](docs/data-model.md)
+
+## Health and KPI logic
+
+Overall project health is determined from eight transparent dimensions:
+
+1. Schedule
+2. Cost
+3. Risk
+4. Issues
+5. Milestones
+6. Dependencies
+7. Actions
+8. Reporting freshness
+
+Overall health reflects the most severe applicable dimension.
+
+Example configurable thresholds include:
+
+- schedule Amber at 5 days;
+- schedule Red at 14 days;
+- forecast cost Amber at 5%;
+- forecast cost Red at 15%;
+- immediate Red for a critical overdue milestone;
+- immediate Red for an unresolved critical issue;
+- Red for open risk exposure ≥20 where mitigation has not started.
+
+See [Business rules](docs/business-rules.md) for the exact formulas and exceptions.
+
+Headline KPIs are designed to answer practical management questions:
+
+- How much work is currently active?
+- Which projects require intervention?
+- Which milestones or actions are overdue?
+- Where is forecast funding exposed?
+- Which dependencies require coordination?
+- Where are shared resources overloaded?
+
+Lifecycle status is intentionally separated from project health.
+
+Task completion is unweighted, and the project does **not** claim earned-value management metrics.
 
 ## Seven management views
 
-1. **Executive Portfolio** — active health, finance, history, exceptions and shared-resource constraints.
-2. **Project Health** — department comparison, project register and configurable thresholds.
-3. **Schedule & Milestones** — overdue/critical gates, variance and completed milestone performance.
-4. **RAID & Actions** — risks, issues, assumptions, owners, age and overdue actions.
-5. **Financial Performance** — approved, planned, actual and forecast values with reconciled variance.
-6. **Dependencies** — direct project-to-project interface map and exposure evidence.
-7. **Project Detail** — evidence, history, scenario controls, audit and accountability.
+### 1. Executive Portfolio
 
-The same views are specified for Power BI in [the Desktop handoff](powerbi/README.md). **14 typed M queries, 22 relationships, DAX measures, theme and validation totals** are included; Desktop must assemble and validate the final Power BI report.
+Portfolio health, financial position, historical trends, management exceptions and shared-resource constraints.
 
-## Demonstrate it
+### 2. Project Health
 
-Open P03 in Project Detail. Change milestone `P03-M3` forecast from **2026-10-05 to 2026-10-12**, then save. Open Dependencies: the P03 → P04 exposure changes from **14 to 21 days**. Reset the scenario, inspect P07's recovery history and download the weekly report.
+Department comparison, project register and configurable health thresholds.
 
-[Latest generated report](examples/weekly-report-2026-09-21.md).
+### 3. Schedule & Milestones
+
+Milestone status, overdue gates, critical milestones, schedule variance and completed-milestone performance.
+
+### 4. RAID & Actions
+
+Risks, issues, assumptions, actions, ownership, ageing and escalation.
+
+### 5. Financial Performance
+
+Approved budget, planned cost, actual spend, forecast spend and reconciled variance.
+
+### 6. Dependencies
+
+Direct project-to-project dependency relationships and quantified exposure.
+
+### 7. Project Detail
+
+Project evidence, historical health, scenario controls, audit information and accountability.
+
+The same management views are specified for Power BI in the [Power BI Desktop handoff](powerbi/README.md).
+
+The repository currently includes **14 typed M queries, 22 model relationships, DAX measures, a report theme and validation totals** for Desktop assembly.
+
+## Demonstration scenario
+
+A simple scenario demonstrates how the system connects a project change to portfolio-level exposure.
+
+1. Open project **P03** in Project Detail.
+2. Locate milestone `P03-M3`.
+3. Change its forecast date from **2026-10-05** to **2026-10-12**.
+4. Save the scenario.
+5. Open the Dependencies view.
+6. Observe P03 → P04 dependency exposure change from **14 days to 21 days**.
+7. Reset the scenario.
+8. Review P07's historical recovery.
+9. Generate the weekly PMO report.
+
+See the [latest generated weekly report](examples/weekly-report-2026-09-21.md).
 
 ## Rebuild and test
+
+Rebuild the deterministic baseline and analytical assets with:
 
 ```powershell
 python scripts/build.py
 python scripts/powerbi_assets.py
+```
+
+Run the Python validation suite with:
+
+```powershell
 python -m unittest discover -s tests -v
 python scripts/test_report.py
 ```
 
-The generators rebuild the deterministic baseline and Power BI assets. UI tests use a running disposable local instance; instructions are in [testing](docs/testing.md). Start the Python server again after regenerating its baseline.
+UI tests use a running disposable local instance.
 
-## Repository
+See [Testing](docs/testing.md) for the full testing workflow.
+
+## Repository structure
 
 ```text
-src/pmo/          Source validation, calculations, scenarios, reports and local server
-dashboard/        Implemented seven-view HTML/CSS/JavaScript interface
-config/           Baseline governance thresholds
-data/raw/         16 relational CSV tables and typed JSON bundle
-data/processed/   14 analytical tables plus portfolio KPI validation output
-data/historical/  12 computed weekly evidence snapshots
-powerbi/          Typed queries, measures, relationships, theme and page specifications
+src/pmo/          PMO validation, calculations, scenarios, reports and local server
+dashboard/        Seven-view HTML/CSS/JavaScript management interface
+config/           Governance and health thresholds
+data/raw/         Relational synthetic source datasets
+data/processed/   Analytical tables and KPI validation outputs
+data/historical/  Computed weekly portfolio evidence snapshots
+powerbi/          Power Query, DAX, relationships, theme and report specifications
 tests/            Python, DOM/API and browser integration checks
-scripts/          Rebuild, asset generation, evidence and package checks
-docs/             Requirements, architecture, business rules, setup, security and QA evidence
-examples/         Reproducible weekly management reports and latest KPI output
-screenshots/      Actual local-application captures
+scripts/          Build, asset generation, evidence and repository checks
+docs/             Requirements, architecture, business rules, setup, security and QA
+examples/         Reproducible weekly management reports and KPI outputs
+screenshots/      Captures from the running local application
 ```
 
-## Security, privacy and limitations
+## Security and privacy
 
-The server binds to loopback by default; writes require a session token, acceptable Host/Origin and current revision. No secrets or personal data are required. The synthetic baseline is immutable through the UI. This is a single-user local tool without accounts, production authentication, encryption-at-rest, audit signing or enterprise operations. [Security notes](docs/security.md).
+The application is designed as a local portfolio project.
 
-No critical-path scheduling, earned-value control, resource optimisation, recursive dependency rescheduling or automated recovery decisions are implemented. Dependencies quantify direct exposure; humans decide how to respond. Percentages and health thresholds are transparent scenario assumptions rather than validated predictors. Power BI Desktop, Docker deployment and the user's Windows environment require their documented local checks.
+The server binds to loopback by default.
 
-Future improvements within portfolio governance could include approved-source connectors, governed change approval, persisted model versions, retention, access control and report subscriptions. Future portfolio projects remain separate and require explicit authorisation.
+Write operations require:
 
+- a session token;
+- an acceptable Host/Origin;
+- the current scenario revision.
 
-MIT license applies to this repository's original work. Third-party tools retain their own licenses. **Independent portfolio project; entirely synthetic data.**
+No credentials, secrets or personal data are required.
+
+The synthetic baseline cannot be modified directly through the interface; scenario changes are maintained separately.
+
+See [Security notes](docs/security.md).
+
+## Limitations
+
+This project intentionally does **not** claim functionality that has not been implemented.
+
+The current system does not provide:
+
+- critical-path scheduling;
+- earned-value management;
+- automatic resource optimisation;
+- recursive dependency rescheduling;
+- automated recovery decisions;
+- enterprise identity/access management;
+- production authentication;
+- encryption-at-rest;
+- cryptographically signed audit records;
+- multi-user enterprise operations.
+
+Dependencies quantify direct exposure; people remain responsible for management decisions.
+
+Health thresholds and scenario percentages are transparent portfolio assumptions rather than predictive models.
+
+Power BI Desktop assembly remains a documented next step.
+
+## Future extensions
+
+Potential extensions within the same portfolio-governance scope include:
+
+- governed source-system connectors;
+- approval workflows for portfolio changes;
+- persisted model versions;
+- role-based access;
+- retention policies;
+- scheduled report distribution;
+- additional executive reporting;
+- governed portfolio snapshots.
+
+These are future possibilities rather than implemented functionality.
+
+## License
+
+MIT license applies to this repository's original work.
+
+Third-party tools retain their respective licenses.
+
+**Independent portfolio project · Entirely synthetic data**
