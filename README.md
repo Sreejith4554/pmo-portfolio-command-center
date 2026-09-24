@@ -14,7 +14,7 @@ Built around a synthetic portfolio of **18 projects across 7 departments and 12 
 
 **PMO & Delivery:** Portfolio governance · Project health · RAID management · Milestone tracking · Dependency management · Resource visibility · Financial monitoring · Executive reporting
 
-**Analytics:** KPI design · Scenario analysis · Data modelling · Power BI preparation · DAX · Power Query
+**Analytics:** KPI design · Scenario analysis · Data modelling · Power BI · DAX · Power Query
 
 **Technical:** Python · SQL/SQLite · JavaScript · Git/GitHub · Automated validation
 
@@ -27,6 +27,38 @@ Built around a synthetic portfolio of **18 projects across 7 departments and 12 
 ### Project-level investigation
 
 ![Project detail](screenshots/project-detail.png)
+
+## Power BI report preview
+
+The repository also includes a completed Power BI Desktop implementation of the portfolio model.
+
+### Executive Portfolio
+
+![Power BI Executive Portfolio](screenshots/powerbi/01-executive-portfolio.png)
+
+### Project Health
+
+![Power BI Project Health](screenshots/powerbi/02-project-health.png)
+
+### Schedule & Milestones
+
+![Power BI Schedule and Milestones](screenshots/powerbi/03-schedule-milestones.png)
+
+### RAID & Actions
+
+![Power BI RAID and Actions](screenshots/powerbi/04-raid-actions.png)
+
+### Financial Performance
+
+![Power BI Financial Performance](screenshots/powerbi/05-financial-performance.png)
+
+### Dependencies
+
+![Power BI Dependencies](screenshots/powerbi/06-dependencies.png)
+
+### Project Detail
+
+![Power BI Project Detail](screenshots/powerbi/07-project-detail.png)
 
 ## Start in one command
 
@@ -109,21 +141,40 @@ Detailed evidence is available in:
 - [UI/API evidence](docs/ui-test-results.json)
 - [Quality gate](docs/quality-gate.md)
 
-### Power BI boundary
+### Power BI implementation
 
-The repository includes:
+The Power BI Desktop implementation has been assembled and validated locally against the supplied analytical model.
 
-- typed analytical datasets;
-- Power Query definitions;
-- DAX measures;
-- model relationships;
-- report theme;
-- page specifications;
-- validation totals.
+The completed report contains seven management pages:
 
-A `.pbix` file has **not** been fabricated or represented as completed.
+- Executive Portfolio;
+- Project Health;
+- Schedule & Milestones;
+- RAID & Actions;
+- Financial Performance;
+- Dependencies;
+- Project Detail.
 
-Power BI Desktop assembly and final DAX/M execution remain local implementation steps.
+A separate QA page was used to reconcile the latest reporting-period outputs against the repository validation totals.
+
+The Desktop model uses **14 typed analytical data queries, 22 active single-direction relationships, DAX measures, the supplied report theme and validation totals**.
+
+For the latest reporting period (**2026-09-21**), the Power BI outputs were reconciled to `validation-expected.csv`, including:
+
+- 15 Active projects;
+- 4 Green, 3 Amber and 8 Red;
+- €6,775,000 approved budget;
+- €5,888,268 actual spend;
+- €7,079,750 forecast spend;
+- €304,750 / 4.50% forecast variance;
+- 8 overdue milestones;
+- 4 critical overdue milestones;
+- 2 dependency exposures;
+- 4 overloaded shared resources.
+
+The final `.pbix` was saved and reopened successfully in Power BI Desktop.
+
+> **Data disclosure:** All portfolio data shown in the Power BI report is synthetic and created solely for this independent portfolio project.
 
 ## Portfolio scenario
 
@@ -177,7 +228,7 @@ flowchart TD
     ENGINE --> REPORT["Weekly PMO report"]
     ENGINE --> DATA["14 analytical tables"]
 
-    DATA --> POWERBI["Power BI Desktop handoff"]
+    DATA --> POWERBI["Power BI Desktop report"]
 ```
 
 The runtime uses:
@@ -298,9 +349,9 @@ Direct project-to-project dependency relationships and quantified exposure.
 
 Project evidence, historical health, scenario controls, audit information and accountability.
 
-The same management views are specified for Power BI in the [Power BI Desktop handoff](powerbi/README.md).
+The same management views are implemented in Power BI and documented in the [Power BI implementation guide](powerbi/README.md).
 
-The repository currently includes **14 typed M queries, 22 model relationships, DAX measures, a report theme and validation totals** for Desktop assembly.
+The Power BI implementation uses **14 typed analytical data queries, 22 model relationships, DAX measures, the supplied report theme and validation totals**. The seven-page Desktop report has been assembled and validated locally.
 
 ## Demonstration scenario
 
@@ -347,12 +398,12 @@ config/           Governance and health thresholds
 data/raw/         Relational synthetic source datasets
 data/processed/   Analytical tables and KPI validation outputs
 data/historical/  Computed weekly portfolio evidence snapshots
-powerbi/          Power Query, DAX, relationships, theme and report specifications
+powerbi/          Power BI report, Power Query, DAX, relationships, theme and specifications
 tests/            Python, DOM/API and browser integration checks
 scripts/          Build, asset generation, evidence and repository checks
 docs/             Requirements, architecture, business rules, setup, security and QA
 examples/         Reproducible weekly management reports and KPI outputs
-screenshots/      Captures from the running local application
+screenshots/      Captures from the running application and Power BI Desktop report
 ```
 
 ## Security and privacy
@@ -394,7 +445,7 @@ Dependencies quantify direct exposure; people remain responsible for management 
 
 Health thresholds and scenario percentages are transparent portfolio assumptions rather than predictive models.
 
-Power BI Desktop assembly remains a documented next step.
+The seven-page Power BI Desktop report has been assembled and validated locally. The source-controlled Power Query, DAX, relationship, theme and validation assets remain available as the reproducible analytical handoff.
 
 ## Future extensions
 
