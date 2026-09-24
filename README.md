@@ -869,5 +869,3 @@ Third-party tools retain their respective licenses.
 ---
 
 **PMO Portfolio Command Center · Independent portfolio project · Entirely synthetic data**
-**PMO Portfolio Command Center · Independent portfolio project · Entirely synthetic data**
-**Independent portfolio project · Entirely synthetic data**
