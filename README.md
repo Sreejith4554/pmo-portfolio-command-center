@@ -34,31 +34,31 @@ The repository also includes a completed Power BI Desktop implementation of the 
 
 ### Executive Portfolio
 
-![Power BI Executive Portfolio](screenshots/powerbi/01-executive-portfolio.png)
+![Power BI Executive Portfolio](screenshots/01-executive-portfolio.png)
 
 ### Project Health
 
-![Power BI Project Health](screenshots/powerbi/02-project-health.png)
+![Power BI Project Health](screenshots/02-project-health.png)
 
 ### Schedule & Milestones
 
-![Power BI Schedule and Milestones](screenshots/powerbi/03-schedule-milestones.png)
+![Power BI Schedule and Milestones](screenshots/03-schedule-milestones.png)
 
 ### RAID & Actions
 
-![Power BI RAID and Actions](screenshots/powerbi/04-raid-actions.png)
+![Power BI RAID and Actions](screenshots/04-raid-actions.png)
 
 ### Financial Performance
 
-![Power BI Financial Performance](screenshots/powerbi/05-financial-performance.png)
+![Power BI Financial Performance](screenshots/05-financial-performance.png)
 
 ### Dependencies
 
-![Power BI Dependencies](screenshots/powerbi/06-dependencies.png)
+![Power BI Dependencies](screenshots/06-dependencies.png)
 
 ### Project Detail
 
-![Power BI Project Detail](screenshots/powerbi/07-project-detail.png)
+![Power BI Project Detail](screenshots/07-project-detail.png)
 
 ## Start in one command
 
