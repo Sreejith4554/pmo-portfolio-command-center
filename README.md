@@ -46,7 +46,7 @@ The repository also includes a completed Power BI Desktop implementation of the 
 
 ### RAID & Actions
 
-![Power BI RAID and Actions](screenshots/04-raid-actions.png)
+![Power BI RAID and Actions](screenshots/04-raid-actions.png.png)
 
 ### Financial Performance
 
